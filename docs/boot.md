@@ -79,6 +79,13 @@ These types are ordered chronologically by the time they were first available.
 - **Type III**: Late 2018 - 2019 devices that are A-only. **The worst type of device to ever exist as far as Magisk is concerned.**
 - **Type IV**: All devices using Boot Method C are Type IV. A/B Type IV ramdisk can boot into either Android or recovery based on info from bootloader; A-only Type IV ramdisk can only boot into Android.
 
-Further details on Type III devices: Magisk is always installed in the ramdisk of a boot image. For all other device types, because their `boot` partition have ramdisk included, Magisk can be easily installed by patching boot image through the Magisk app or flash zip in custom recovery. However for Type III devices, they are **limited to install Magisk into the `recovery` partition**. Magisk will not function when booted normally; instead Type III device owners have to always reboot to recovery to maintain Magisk access.
+Further details on Type III devices: Magisk is always installed in the ramdisk of a boot image. For all other device types, because their `boot` partition have ramdisk included, Magisk can be easily installed by patching boot image through the Magisk app or flash zip in custom recovery. However for Type III devices, they are **limited to install Magisk into the `recovery` partition**. Magisk will not function when booted on normally; instead Type III device owners have to always reboot to recovery to maintain  access.
 
-Some Type III devices' bootloader will still accept and provide `initramfs` that was manually added to the `boot` image to the kernel (e.g. some Xiaomi phones), but many device don't (e.g. Samsung S10, Note 10). It solely depends on how the OEM implements its bootloader.
+Some Type III devices' bootloader will still accept and provide `initramfs` that was manually added to the `boot` imag![logo(1)](https://github.com/user-attachments/assets/dfd20da9-1aac-42df-9b88-f930faf85b94)
+e to the kernel (e.g. some Xiaomi phones), but many device don't (e.g. Samsung S10, Note 10). It solely depends on how the OEM implements its bootloader.
+Control
+![manager_reboot(1)](https://github.com/user-attachments/assets/63fa0502-6cea-4367-b2a0-b9a9431661a2)
+![logo(1)](https://github.com/user-attachments/assets/523eec6b-ec1d-4d67-bda0-3b5fbfe57ddc)
+E
+![logo(1)](https://github.com/user-attachments/assets/f3e986f8-fb56-4562-9fd3-ec1892b0ef13)
+![screenshot-2025-02-26-21-32-04-default](https://github.com/user-attachments/assets/5bf6ecc0-4af4-4602-91a3-f2bd6627c64e)
